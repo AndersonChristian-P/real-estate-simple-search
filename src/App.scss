@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin:300,400,500,600,700,800,900&display=swap');
+
+@import "./components/Header/Header";
+@import "./components/Footer/Footer";
+@import "./components/SearchResults/SearchResults";
+@import "./components/Sidebar/Sidebar";
+
+* {
+	margin: 0;
+	padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Libre Franklin', sans-serif;
+  font-size: 1em;
+  text-rendering: optimizeLegibility;
+  max-width: 1820px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
